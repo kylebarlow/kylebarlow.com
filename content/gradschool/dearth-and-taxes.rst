@@ -6,7 +6,6 @@ Dearth and taxes
 :tags: gradlife
 :slug: dearth-and-taxes
 
- 
 Although I am quite fortunate to receive a stipend to help me get
 through graduate school, I wouldn’t exactly call my lifestyle luxurious.
 I consider rice and beans to be an easy, cheap, nutritious meal, but for
