@@ -89,7 +89,7 @@ PROJECTS = [
 {
     'name' : 'CricketTherm',
     'url': 'https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm',
-    'description': 'Android appto estimate outdoors with no network connection based on cricket chirping rate'
+    'description': 'Android app to estimate outdoors with no network connection based on cricket chirping rate'
 },
 {
     'name': 'Rosetta',
