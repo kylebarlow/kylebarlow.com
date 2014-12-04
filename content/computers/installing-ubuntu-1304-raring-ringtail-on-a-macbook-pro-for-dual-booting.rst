@@ -5,7 +5,7 @@ Installing Ubuntu 13.04 Raring Ringtail on a MacBook Pro for Dual Booting
 :tags: ubuntu
 :slug: installing-ubuntu-1304-raring-ringtail-on-a-macbook-pro-for-dual-booting
 
-| I recently installed Ubuntu onto my MacBook alongside OSX for dual
+I recently installed Ubuntu onto my MacBook alongside OSX for dual
 booting, and learned a few lessons throughout the process. Below are the
 steps that I took. I have a MacBookPro 8,1 but these instructions might
 be applicable to other models as well. Be sure to also read
@@ -14,7 +14,8 @@ guide <https://help.ubuntu.com/community/MacBookPro>`__. I also found `a
 post by James
 Jesudason <http://randomtutor.blogspot.com/2013/02/installing-ubuntu-1304-on-retina.html>`__
 to be helpful.
-| These instructions are fairly sparse, but should help point you in the
+
+These instructions are fairly sparse, but should help point you in the
 right direction if you are less experienced with any of the steps.
 
 #. Reduce partition size in the OSX "disk utility" tool. I dragged the
@@ -55,40 +56,19 @@ right direction if you are less experienced with any of the steps.
    documentation <http://www.rodsbooks.com/refind/linux.html>`__),
    replacing the UUID with the one you noted in the last step
    corresponding to your Ubuntu install, into this
-   file\ ` <http://www.blogger.com/blogger.g?blogID=7041635312727406280>`__
+   file:
 
-   .. code:: listing
+   .. code-block:: bash
 
-       "Boot with standard options" "root=/dev/sda3 ro quiet splash vt.handoff=7""Boot to single-user mode"   "root=UUID=1cd95082-bce0-494c-a290-d2e642dd82b7 ro single""Boot with minimal options"  "root=UUID=1cd95082-bce0-494c-a290-d2e642dd82b7 ro" 
+      "Boot with standard options" "root=/dev/sda3 ro quiet splash vt.handoff=7"
+      "Boot to single-user mode"   "root=UUID=1cd95082-bce0-494c-a290-d2e642dd82b7 ro single"
+      "Boot with minimal options"  "root=UUID=1cd95082-bce0-494c-a290-d2e642dd82b7 ro"
 
 #. When you restart, Ubuntu should automatically be detected and
    available to use in the rEFInd boot menu. You can make it the default
    boot option by setting default\_selection in /EFI/refind/refind.conf
    accordingly
 
-.. raw:: html
-
-   <div>
-
-I modified these steps slightly from the ones that I took, so please let
+I modified these steps slightly from the ones that I took, so let
 me know in the comments if you run into any problems. Hope this helps!
 
-.. raw:: html
-
-   </div>
-
-.. raw:: html
-
-   <div>
-
-.. raw:: html
-
-   </div>
-
-|image0|
-
-.. raw:: html
-
-   </p>
-
-.. |image0| image:: http://feeds.feedburner.com/~r/kylebarlow/KnJL/~4/CpcXQ27omXQ
