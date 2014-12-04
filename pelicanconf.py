@@ -41,3 +41,18 @@ LANDING_PAGE_ABOUT = {
     'title' :'This is my landing page about',
     'details' : 'Here are the details',
 }
+
+PROJECTS = [
+{
+    'name': 'Logpad + Duration',
+    'url': 'https://github.com/talha131/logpad-plus-duration#logpad--duration',
+    'description': 'Vim plugin to emulate Windows Notepad logging feature,'
+    ' and log duration of each entry'
+},
+{
+    'name': 'Elegant Theme for Pelican',
+    'url': 'http://oncrashreboot.com/pelican-elegant',
+    'description': 'A clean and distraction free theme, with search and a'
+    ' lot more unique features, using Jinja2 and Bootstrap'
+},
+]

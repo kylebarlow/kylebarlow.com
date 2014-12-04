@@ -1,0 +1,3 @@
+[submodule "pelican-elegant"]
+	path = pelican-elegant
+	url = git@github.com:kylebarlow/pelican-elegant.git
