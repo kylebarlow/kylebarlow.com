@@ -32,6 +32,8 @@ SOCIAL = (
     ('Facebook', 'https://www.facebook.com/kyleabarlow'),
     ('Google-Plus', 'https://plus.google.com/+KyleBarlow'),
     ('Github', 'https://github.com/kylebarlow'),
+    ('linkedin', 'https://www.linkedin.com/in/kyleabarlow'),
+    ('Email', 'mailto:kb@kylebarlow.com'),
 )
 
 DEFAULT_PAGINATION = 10
@@ -72,21 +74,20 @@ AUTHOR_SAVE_AS = ''
 
 # Home page
 LANDING_PAGE_ABOUT = {
-    'title' :'This is my landing page about',
+    'title' : "Kyle Barlow's Homepage",
     'details' : '<p>My name is Kyle Barlow and I am a computational biologist living in the beautiful San Francisco bay area (not pictured, so take my word for it). <A HREF="http://calband.berkeley.edu/">Go bears!</A></p><p>You can contact me at <A HREF="mailto:kb@kylebarlow.com">kb@kylebarlow.com</A> (my GPG public key is <A HREF="KyleBarlow_public.asc">here)</A> or find me at <A HREF="http://www.linkedin.com/in/kyleabarlow">LinkedIn</A> or on <a href="http://plus.google.com/106160593415513011050?prsrc=3" rel="publisher">Google+</A>.</p><p>Check out my <A HREF="https://github.com/kylebarlow">GitHub profile</A> for the source code for <A HREF="https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm">CricketTherm</A> and my other open source projects.</p>',
 }
 
 PROJECTS = [
 {
-    'name': 'Logpad + Duration',
-    'url': 'https://github.com/talha131/logpad-plus-duration#logpad--duration',
-    'description': 'Vim plugin to emulate Windows Notepad logging feature,'
-    ' and log duration of each entry'
+    'name' : 'CricketTherm',
+    'url': 'https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm',
+    'description': 'Android appto estimate outdoors with no network connection based on cricket chirping rate'
 },
 {
-    'name': 'Elegant Theme for Pelican',
-    'url': 'http://oncrashreboot.com/pelican-elegant',
-    'description': 'A clean and distraction free theme, with search and a'
-    ' lot more unique features, using Jinja2 and Bootstrap'
+    'name': 'Rosetta',
+    'url': 'https://www.rosettacommons.org/',
+    'description': 'Scientific software for computational protein structure prediction and design. '
+    'I contribute to this project as part of my graduate work.'
 },
 ]
