@@ -1,0 +1,13 @@
+*****************************
+CricketTherm Privacy Policy
+Updated March 18, 2013
+*****************************
+
+CricketTherm asks for permission to access the internet and your current (coarse network, not GPS-based) location for 2 reasons:
+
+1. To fetch the real temperature and weather conditions for your location
+2. If you opt-in, CricketTherm will send your logged data back to a central server for scientific analysis. You can see what data is sent by using the "Data Viewer" function - no personally identifiable information is saved by the application or sent to any server.
+
+This opt-in option can be changed via the settings at any point. If you do not opt-in, real weather conditions will still be fetched, but no information will be synced with the CricketTherm servers.
+
+The developer encourages users to opt-in in order to obtain more data about cricket chirp rates, which will help improve the accuracy of the temperature estimation.
