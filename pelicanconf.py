@@ -33,7 +33,7 @@ SOCIAL = (
     ('Google-Plus', 'https://plus.google.com/+KyleBarlow'),
     ('Github', 'https://github.com/kylebarlow'),
     ('linkedin', 'https://www.linkedin.com/in/kyleabarlow'),
-    ('Email', 'mailto:kb@kylebarlow.com'),
+    ('email', 'mailto:kb@kylebarlow.com'),
 )
 
 DEFAULT_PAGINATION = 10
@@ -74,8 +74,8 @@ AUTHOR_SAVE_AS = ''
 
 # Home page
 LANDING_PAGE_ABOUT = {
-    'title' : "Kyle Barlow's Homepage",
-    'details' : '<p>My name is Kyle Barlow and I am a computational biologist living in the beautiful San Francisco bay area (not pictured, so take my word for it). <A HREF="http://calband.berkeley.edu/">Go bears!</A></p><p>You can contact me at <A HREF="mailto:kb@kylebarlow.com">kb@kylebarlow.com</A> (my GPG public key is <A HREF="KyleBarlow_public.asc">here)</A> or find me at <A HREF="http://www.linkedin.com/in/kyleabarlow">LinkedIn</A> or on <a href="http://plus.google.com/106160593415513011050?prsrc=3" rel="publisher">Google+</A>.</p><p>Check out my <A HREF="https://github.com/kylebarlow">GitHub profile</A> for the source code for <A HREF="https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm">CricketTherm</A> and my other open source projects.</p>',
+    'title' : "I do Science",
+    'details' : '<p>My name is Kyle Barlow and I am a computational biologist PhD student living in the San Francisco bay area. <A HREF="http://calband.berkeley.edu/">Go bears!</A></p><p>You can contact me using my <A HREF="KyleBarlow_public.asc">GPG public key.</A></p><p>Check out my <A HREF="https://github.com/kylebarlow">GitHub profile</A> for the source code for <A HREF="https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm">CricketTherm</A> and my other open source projects.</p>',
 }
 
 PROJECTS = [
