@@ -1,7 +1,8 @@
 Dearth and taxes
 ################
+:gittime: off
 :date: 2012-04-23 02:30
-:author: Kyle Barlow (noreply@blogger.com)
+:author: Kyle Barlow
 :tags: gradlife
 :slug: dearth-and-taxes
 

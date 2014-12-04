@@ -37,7 +37,7 @@ THEME = 'pelican-elegant'
 RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['pelican-plugins/']
-PLUGINS = ['sitemap', 'extract_toc', 'tipue_search']
+PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 'filetime_from_git']
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 STATIC_PATHS = ['theme/images', 'images']
