@@ -21,6 +21,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+RESPONSIVE_IMAGES = True
+FIGURE_NUMBERS = True
+
 # Blogroll
 LINKS = (
     ('Beaker Report', 'http://www.beakerreport.com'),
@@ -44,7 +47,11 @@ THEME = 'pelican-elegant'
 RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['pelican-plugins/']
-PLUGINS = ['sitemap', 'extract_toc', 'tipue_search', 'filetime_from_git']
+PLUGINS = [
+    'sitemap', 'extract_toc', 'tipue_search', 'filetime_from_git',
+    'better_figures_and_images',
+    'optimize_images',
+]
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 IGNORE_FILES = ['.#*']

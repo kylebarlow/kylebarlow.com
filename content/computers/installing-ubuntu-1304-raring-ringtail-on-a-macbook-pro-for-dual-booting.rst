@@ -1,9 +1,10 @@
 Installing Ubuntu 13.04 Raring Ringtail on a MacBook Pro for Dual Booting
 #########################################################################
 :date: 2013-05-22 06:06
-:author: Kyle Barlow (noreply@blogger.com)
+:author: Kyle Barlow
 :tags: ubuntu
 :slug: installing-ubuntu-1304-raring-ringtail-on-a-macbook-pro-for-dual-booting
+:gittime: off
 
 I recently installed Ubuntu onto my MacBook alongside OSX for dual
 booting, and learned a few lessons throughout the process. Below are the

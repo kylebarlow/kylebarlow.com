@@ -1,7 +1,7 @@
 How to print a large image on multiple pages, using Python!
 ###########################################################
 :date: 2013-11-19 01:26
-:author: Kyle Barlow (noreply@blogger.com)
+:author: Kyle Barlow
 :slug: how-to-print-a-large-image-on-multiple-pages-using-python
 :gittime: off
 
