@@ -61,10 +61,11 @@ IGNORE_FILES = ['.#*']
 STATIC_PATHS = [
     'theme/images', 'images',
     'bsg', 'crickettherm', 'android',
+    'science',
 ]
 
 ARTICLE_EXCLUDES = [
-    'bsg', 'crickettherm', 'android',
+    'bsg', 'crickettherm', 'android', 'science',
 ]
 
 EXTRA_PATH_METADATA = {}
