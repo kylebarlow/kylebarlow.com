@@ -32,6 +32,7 @@ enzymes, as shown below.
 
 .. figure:: {filename}/images/Amyloid-plaque_formation-big.jpg
    :align: center
+   :alt: Amyloid Plaque Formation Mechanism
 
    Image credit: `ADEAR: Alzheimer's Disease Education and Referral Center, a service of the National Institute on Aging <https://commons.wikimedia.org/wiki/File:Amyloid-plaque_formation-big.jpg>`__
 
