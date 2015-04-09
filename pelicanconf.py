@@ -5,8 +5,8 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = u'Kyle Barlow'
-SITENAME = u'Home'
-SITEURL = ''
+SITENAME = u'kylebarlow.com'
+SITEURL = 'http://www.kylebarlow.com'
 
 PATH = 'content'
 
@@ -17,7 +17,7 @@ DEFAULT_LANG = u'en'
 GOOGLE_ANALYTICS = u'UA-20247595-1'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = True
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
