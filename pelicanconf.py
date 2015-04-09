@@ -7,6 +7,7 @@ import os
 AUTHOR = u'Kyle Barlow'
 SITENAME = u'kylebarlow.com'
 SITEURL = 'http://www.kylebarlow.com'
+SITEMAP = {'format' : 'txt'}
 
 PATH = 'content'
 
@@ -17,7 +18,7 @@ DEFAULT_LANG = u'en'
 GOOGLE_ANALYTICS = u'UA-20247595-1'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = True
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
@@ -58,14 +59,19 @@ MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 IGNORE_FILES = ['.#*']
 
+MENUITEMS = [('Science', '/science')]
+
+DISPLAY_PAGES_ON_MENU = True
+
 STATIC_PATHS = [
     'theme/images', 'images',
     'bsg', 'crickettherm', 'android',
-    'science',
+    'files',
 ]
 
 ARTICLE_EXCLUDES = [
-    'bsg', 'crickettherm', 'android', 'science',
+    'bsg', 'crickettherm', 'android',
+    'files',
 ]
 
 EXTRA_PATH_METADATA = {}
@@ -79,7 +85,7 @@ for f in os.listdir( os.path.join(PATH, static_dir) ):
     ARTICLE_EXCLUDES.append(fpath)
 
 TAG_SAVE_AS = ''
-CATEGORY_SAVE_AS = ''
+CATEGORY_SAVE_AS = 'category/{slug}.html'
 AUTHOR_SAVE_AS = ''
 
 # Home page
