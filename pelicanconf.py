@@ -6,8 +6,9 @@ import os
 
 AUTHOR = u'Kyle Barlow'
 SITENAME = u'kylebarlow.com'
-SITEURL = 'http://www.kylebarlow.com'
-SITEMAP = {'format' : 'txt'}
+SITEURL = ''
+RELATIVE_URLS = True
+SITEMAP = {'format' : 'xml'}
 
 PATH = 'content'
 
@@ -18,7 +19,7 @@ DEFAULT_LANG = u'en'
 GOOGLE_ANALYTICS = u'UA-20247595-1'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = 'feeds/all.atom.xml'
+FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
