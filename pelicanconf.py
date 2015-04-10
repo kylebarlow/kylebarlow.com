@@ -97,11 +97,6 @@ LANDING_PAGE_ABOUT = {
 
 PROJECTS = [
 {
-    'name' : 'CricketTherm',
-    'url': 'https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm',
-    'description': 'Android app to estimate outdoors with no network connection based on cricket chirping rate'
-},
-{
     'name': 'Rosetta',
     'url': 'https://www.rosettacommons.org/',
     'description': 'Scientific software for computational protein structure prediction and design. '
@@ -111,5 +106,10 @@ PROJECTS = [
     'name': 'Beaker Report',
     'url': 'http://www.beakerreport.com/',
     'description': 'Blog covering issues relating to science, law, and public policy.'
+},
+{
+    'name' : 'CricketTherm',
+    'url': 'https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm',
+    'description': 'Android app to estimate outdoors with no network connection based on cricket chirping rate'
 },
 ]
