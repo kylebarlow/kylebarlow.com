@@ -34,14 +34,14 @@ LINKS = (
 )
 
 # Social widget
-SOCIAL = (
+SOCIAL = [
     ('Twitter', 'https://twitter.com/kbsci'),
     ('Facebook', 'https://www.facebook.com/kyleabarlow'),
     ('Google-Plus', 'https://plus.google.com/+KyleBarlow'),
     ('Github', 'https://github.com/kylebarlow'),
     ('linkedin', 'https://www.linkedin.com/in/kyleabarlow'),
     ('email', 'mailto:kb@kylebarlow.com'),
-)
+]
 
 DEFAULT_PAGINATION = 10
 
