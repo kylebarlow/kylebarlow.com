@@ -1,2 +1,8 @@
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^.*$ https://www.kylebarlow.com%{REQUEST_URI} [L,R=301]
+
+Header set Strict-Transport-Security "max-age=31536000;includeSubDomains" "expr=%{req_novary:X-Forwarded-Proto}=='https'
+
 ErrorDocument 404 /404.html
 RedirectPermanent /science /pages/science.html
