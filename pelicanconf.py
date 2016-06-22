@@ -30,7 +30,7 @@ FIGURE_NUMBERS = True
 
 # Blogroll
 LINKS = (
-    ('Beaker Report', 'http://www.beakerreport.com'),
+    ('Beaker Report', 'https://www.beakerreport.com'),
 )
 
 # Social widget
@@ -104,7 +104,7 @@ PROJECTS = [
 },
 {
     'name': 'Beaker Report',
-    'url': 'http://www.beakerreport.com/',
+    'url': 'https://www.beakerreport.com/',
     'description': 'Blog covering issues relating to science, law, and public policy.'
 },
 {
@@ -115,4 +115,4 @@ PROJECTS = [
 ]
 
 
-SITE_LICENSE = u'<a href="http://www.kylebarlow.com">kylebarlow.com</a> by Kyle Barlow is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>'
+SITE_LICENSE = u'<a href="https://www.kylebarlow.com">kylebarlow.com</a> by Kyle Barlow is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a>'
