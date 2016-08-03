@@ -30,7 +30,7 @@ FIGURE_NUMBERS = True
 
 # Blogroll
 LINKS = (
-    ('Beaker Report', 'https://www.beakerreport.com'),
+    # ('Beaker Report', 'https://www.beakerreport.com'),
 )
 
 # Social widget
@@ -102,11 +102,11 @@ PROJECTS = [
     'description': 'Scientific software for computational protein structure prediction and design. '
     'I contribute to this project as part of my graduate work.'
 },
-{
-    'name': 'Beaker Report',
-    'url': 'https://www.beakerreport.com/',
-    'description': 'Blog covering issues relating to science, law, and public policy.'
-},
+# {
+#     'name': 'Beaker Report',
+#     'url': 'https://www.beakerreport.com/',
+#     'description': 'Blog covering issues relating to science, law, and public policy.'
+# },
 {
     'name' : 'CricketTherm',
     'url': 'https://play.google.com/store/apps/details?id=com.kylebarlow.android.crickettherm',
