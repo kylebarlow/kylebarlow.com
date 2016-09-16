@@ -4,18 +4,32 @@ How to limit degrees of freedom when generating small molecule conformers in ope
 :author: Kyle Barlow
 :tags: compbio
 :slug: limited-freedom-conformer-generation
-:figure_numbers: True
+:date: 2012-04-23 02:30
 
-Conformer generation software takes in a static file that looks something like this:
+The Rosetta software is great at modeling proteins, but not so great at dealing with small molecule chemistry. Alternate software like openbabel is needed.
 
-.. figure:: images/Acetyl-CoA-2D_colored.svg
-   :scale: 20%
-   :alt: map to buried treasure
+At the beginning of a Rosetta small molecule design workflow, I often first download a file with a two-dimensional representation of the static? small molecule.
+Conformer generation software takes in a two-dimensional file representing a small molecule,
+that, when visualized, looks something like this:
 
-   This is the caption of the figure (a simple paragraph).
+.. figure:: {filename}/images/Acetyl-CoA-2D_colored.svg
+   :scale: 50%
+   :align: center
+   :alt: 2-dimensional acetyl coenzyme A (acetyl-CoA)
 
-   The legend consists of all elements after the caption.  In this
-   case, the legend consists of this paragraph and the following
-   table:
+   `Acetyl coenzyme A / acetyl-CoA <https://en.wikipedia.org/wiki/Acetyl-CoA>`__ (2D)
 
-Into something like this:
+The software then outputs several low-energy, three-dimensional molecule.
+
+.. figure:: {filename}/images/Acetyl-CoA-3D.png
+   :width: 100px
+   :align: center
+   :alt: 2-dimensional acetyl coenzyme A (acetyl-CoA)
+
+   `Acetyl coenzyme A / acetyl-CoA <https://en.wikipedia.org/wiki/Acetyl-CoA>`__ (3D)
+
+And here's the Python script I wrote:
+
+.. raw:: html
+
+   <script src="https://gist.github.com/kylebarlow/1756ea399ba6bfee3c2d3d054c17c3a3.js">
