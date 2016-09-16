@@ -25,8 +25,9 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+# Settings for the better_figures_and_images plugin
 RESPONSIVE_IMAGES = True
-FIGURE_NUMBERS = True
+FIGURE_NUMBERS = False
 
 # Blogroll
 LINKS = (

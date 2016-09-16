@@ -21,7 +21,7 @@ DELETE_OUTPUT_DIRECTORY = True
 # Following items are often useful when publishing
 
 DISQUS_SITENAME = "kylebarlow"
-#GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = u'UA-20247595-1'
 
 if FEED_ALL_ATOM:
     SOCIAL.append( ('RSS', SITEURL + '/' + FEED_ALL_ATOM) )
