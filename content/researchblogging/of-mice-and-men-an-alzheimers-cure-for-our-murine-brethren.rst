@@ -1,6 +1,7 @@
 Of mice and men: an Alzheimer’s cure for our murine brethren
 ############################################################
 :date: 2012-05-02 22:55
+:modified: 2016-09-15 13:00
 :author: Kyle Barlow
 :tags: prions, research
 :slug: of-mice-and-men-an-alzheimers-cure-for-our-murine-brethren
@@ -137,6 +138,12 @@ little luck, this drug can succeed where so many other promising drugs
 in mice have failed and become a useful therapy in humans.  If a loved
 one of mine had Alzheimer's, I would be watching the clinical trial
 results *very* closely.
+
+Update (2016-09-15):
+--------------------
+
+Multiple studies have since tried to replicated the results of this study, with only mixed success, at best (see `Nature News <http://www.nature.com/news/studies-cast-doubt-on-cancer-drug-as-alzheimer-s-treatment-1.13058?WT.ec_id=NEWS-20130528>`__ for a good summary).
+Since the results of the study can't even be replicated consistently in mice, I have further doubts about the chances of bexarotene working in humans.
 
 References:
 ^^^^^^^^^^^
