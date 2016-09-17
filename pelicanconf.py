@@ -56,10 +56,13 @@ PLUGINS = [
     'sitemap', 'extract_toc', 'tipue_search', 'filetime_from_git',
     'better_figures_and_images',
     'optimize_images',
+    'pelican-cite',
 ]
 MD_EXTENSIONS = ['codehilite(css_class=highlight)', 'extra', 'headerid', 'toc']
 DIRECT_TEMPLATES = (('index', 'tags', 'categories','archives', 'search', '404'))
 IGNORE_FILES = ['.#*']
+
+PUBLICATIONS_SRC = 'pubs.bib'
 
 MENUITEMS = [('Science', '/science')]
 

@@ -1,7 +1,7 @@
 Of mice and men: an Alzheimer’s cure for our murine brethren
 ############################################################
 :date: 2012-05-02 22:55
-:modified: 2016-09-15 13:00
+:modified: 2016-09-16 13:00
 :author: Kyle Barlow
 :tags: prions, research
 :slug: of-mice-and-men-an-alzheimers-cure-for-our-murine-brethren
@@ -64,7 +64,7 @@ folding and amyloids but here's a teaser for another paper I will cover
 Now that I have not-definitively-at-all covered the background of
 Alzheimer's, let's get to the paper I want to talk about today. This
 paper, "ApoE-Directed Therapeutics Rapidly Clear Β-Amyloid and Reverse
-Deficits in AD Mouse Models," was published in March as a ScienceExpress
+Deficits in AD Mouse Models," [@cramer_apoe-directed_2012] was published in March as a ScienceExpress
 article. This means that the editors of the journal Science thought it
 was important enough to rush out and publish online. Added bonus for
 overworked grad students like myself - ScienceExpress papers are short!
@@ -139,18 +139,8 @@ in mice have failed and become a useful therapy in humans.  If a loved
 one of mine had Alzheimer's, I would be watching the clinical trial
 results *very* closely.
 
-Update (2016-09-15):
+Update (2016-09-16):
 --------------------
 
-Multiple studies have since tried to replicated the results of this study, with only mixed success, at best (see `Nature News <http://www.nature.com/news/studies-cast-doubt-on-cancer-drug-as-alzheimer-s-treatment-1.13058?WT.ec_id=NEWS-20130528>`__ for a good summary).
+Multiple groups ([@fitz_comment_2013], [@price_comment_2013], [@tesseur_comment_2013], [@veeraraghavalu_comment_2013]) have since tried to replicated the results of this study, with only mixed success, at best (see `Nature News <http://www.nature.com/news/studies-cast-doubt-on-cancer-drug-as-alzheimer-s-treatment-1.13058?WT.ec_id=NEWS-20130528>`__ for a good summary).
 Since the results of the study can't even be replicated consistently in mice, I have further doubts about the chances of bexarotene working in humans.
-
-References:
-^^^^^^^^^^^
-
-* Cramer, P., Cirrito, J., Wesson, D., Lee, C., Karlo, J., Zinn, A.,
-  Casali, B., Restivo, J., Goebel, W., James, M., Brunden, K., Wilson, D.,
-  & Landreth, G. (2012). ApoE-Directed Therapeutics Rapidly Clear
-   - Amyloid and Reverse Deficits in AD Mouse Models Science, 335 (6075),
-  1503-1506 DOI:
-  `10.1126/science.1217697 <http://dx.doi.org/10.1126/science.1217697>`__
